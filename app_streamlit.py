@@ -9,7 +9,7 @@ import streamlit as st
 import pandas as pd
 
 # Simulación del DataFrame con los datos proporcionados
-df = pd.read_parquet("data.parquet")
+df = pd.read_parquet("df.parquet")
 
 # Título de la app
 st.title("Búsqueda por QName")
